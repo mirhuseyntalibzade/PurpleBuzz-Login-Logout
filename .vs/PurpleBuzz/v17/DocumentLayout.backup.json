@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\PurpleBuzzMVC.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\PurpleBuzzMVC.csproj|solutionrelative:fronttoback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\dto\\userdto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\dto\\userdto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|c:\\users\\my computer\\desktop\\pruplebuzz login-logout\\fronttoback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D447F3-1DD9-48DE-809B-695083852FC8}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +35,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FrontToBack\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "FrontToBack\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T07:09:40.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "FrontToBack\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "FrontToBack\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T06:45:49.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "FrontToBack\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "FrontToBack\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:40:56.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\DTO\\UserDTO\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "FrontToBack\\DTO\\UserDTO\\LoginUserDto.cs",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\DTO\\UserDTO\\LoginUserDto.cs",
+              "RelativeToolTip": "FrontToBack\\DTO\\UserDTO\\LoginUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:39:33.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\PrupleBuzz Login-Logout\\FrontToBack\\Program.cs",
               "RelativeDocumentMoniker": "FrontToBack\\Program.cs",
@@ -26,8 +93,7 @@
               "RelativeToolTip": "FrontToBack\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T06:33:44.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T06:33:44.245Z"
             }
           ]
         }

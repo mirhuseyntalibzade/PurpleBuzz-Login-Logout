@@ -522,3 +522,4 @@ C:\Users\My Computer\Desktop\PrupleBuzz Login-Logout\FrontToBack\obj\Debug\net8.
 C:\Users\My Computer\Desktop\PrupleBuzz Login-Logout\FrontToBack\obj\Debug\net8.0\FrontToBack.pdb
 C:\Users\My Computer\Desktop\PrupleBuzz Login-Logout\FrontToBack\obj\Debug\net8.0\FrontToBack.genruntimeconfig.cache
 C:\Users\My Computer\Desktop\PrupleBuzz Login-Logout\FrontToBack\obj\Debug\net8.0\ref\FrontToBack.dll
+C:\Users\My Computer\Desktop\PrupleBuzz Login-Logout\FrontToBack\obj\Debug\net8.0\FrontToBack.sourcelink.json

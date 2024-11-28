@@ -10,6 +10,6 @@ namespace FrontToBack.DTO.UserDTO
 
         [Required]
         [Display(Prompt = "Password")]
-        public int Password { get; set; }
+        public string Password { get; set; }
     }
 }

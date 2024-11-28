@@ -55,22 +55,27 @@ namespace FrontToBack.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginUserDto loginUserDto)
         {
-            if (!ModelState.IsValid)
-            {
-                ModelState.AddModelError("", "Something went wrong.");
-                return View();
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    ModelState.AddModelError("", "Something went wrong.");
+            //    return View();
+            //}
             AppUser? user = (AppUser?)_context.Users.FirstOrDefault(u => u.Email == loginUserDto.EmailOrUserName || u.UserName == loginUserDto.EmailOrUserName);
-            if (user == null)
+            if (user == null || loginUserDto.Password == null)
             {
                 ModelState.AddModelError("", "Username or password is incorrect.");
                 return View();
             }
-            await _signInManager.SignInAsync(user, isPersistent: true);
+            var signInUser = await _signInManager.PasswordSignInAsync(user, loginUserDto.Password, isPersistent: true, lockoutOnFailure: false);
+            if (!signInUser.Succeeded)
+            {
+                ModelState.AddModelError("", "Username or password is incorrect.");
+                return View();
+            }
             return RedirectToAction("Index", "Home");
         }
 
-        public async  Task<IActionResult> Logout()
+        public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
